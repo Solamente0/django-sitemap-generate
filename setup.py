@@ -59,7 +59,7 @@ def get_version():
 
 setup(
     name='django-sitemap-generate',
-    version=get_version() or 'dev',
+    version='0.6.0',
     long_description=long_description,
     long_description_content_type='text/markdown',
     packages=find_packages(),
